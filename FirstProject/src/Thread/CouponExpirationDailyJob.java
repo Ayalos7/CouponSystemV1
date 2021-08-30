@@ -36,7 +36,7 @@ public class CouponExpirationDailyJob implements Runnable {
 
     public void stop() {
         if (this.quit) {
-            System.out.println("----------\nThread will now be interrupted due to value quit set to true- as asked in the project");
+            System.out.println("----------\nThread will now be interrupted");
             Thread.currentThread().interrupt();
         }
     }

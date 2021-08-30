@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * class of AdminFacade - allegedly client side
+ * class of AdminFacade
  */
 public class AdminFacade extends ClientFacade {
 
@@ -240,7 +240,7 @@ public class AdminFacade extends ClientFacade {
      * method that deletes a customer
      *
      * @param customerID int
-     *                   deletes customer from db with customerID
+     * deletes customer from db with customerID
      */
 
     public void deleteCustomer(int customerID) {
@@ -267,7 +267,7 @@ public class AdminFacade extends ClientFacade {
     }
 
     /**
-     * method deletes customer purchase (no need to do in project since customers buy coupons only in coupon facade, activating it here will means we have to activate all the facades first and then login to admin again to activate it.
+     * method deletes customer purchase 
      * @param customerID int
      * @param coupon coupon
      */

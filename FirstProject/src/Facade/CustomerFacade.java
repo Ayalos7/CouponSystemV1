@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * class of CustomerFacade - allegedly client side
+ * class of CustomerFacade
  */
 public class CustomerFacade extends ClientFacade {
     CustomersDBDAO customersDBDAO = new CustomersDBDAO();

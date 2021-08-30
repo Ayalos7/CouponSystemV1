@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * class of CompanyFacade - allegedly client side
+ * class of CompanyFacade 
  */
 
 public class CompanyFacade extends ClientFacade {
